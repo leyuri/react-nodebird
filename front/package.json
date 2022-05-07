@@ -10,8 +10,11 @@
   "author": "yurilee",
   "license": "ISC",
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.20.2",
     "next": "^9.5.5",
-    "prop-types": "^15.8.1"
+    "prop-types": "^15.8.1",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
