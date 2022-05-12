@@ -17,7 +17,6 @@ const SearchInput = styled(Input.Search)`
 `;
 const AppLayout = ({ children }) => {
     const [isLoggedIn, setIsLoggedIn] = useState(false)
-
     return (
             <>
                 <Menu mode='horizontal'>
