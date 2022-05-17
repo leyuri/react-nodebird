@@ -3,6 +3,8 @@ import 'antd/dist/antd.css'
 import PropTypes from 'prop-types'
 import Head from 'next/head'
 
+import wrapper from '../ store/configureStore'
+
 const Nodebird = ({ Component }) => {
     return (
         <>
@@ -20,4 +22,4 @@ Nodebird.protoTypes = {
     Component: PropTypes.elementType.isRequired,
 }
 
-export default Nodebird;
+export default wrapper.withRedux(Nodebird);
