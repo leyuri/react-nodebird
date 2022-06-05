@@ -5,6 +5,9 @@ export const Global = createGlobalStyle`
   .slick-slide {
     display: inline-block;
   }
+  .ant-card-cover {
+      transform: none !important;
+  }
 `
 // 전체화면 채우기 
 export const Overlay = styled.div`
@@ -28,6 +31,7 @@ export const Header = styled.header`
     font-size: 17px;
     color: #333;
     line-height: 44px;
+    border: solid;
   }
 `;
 
