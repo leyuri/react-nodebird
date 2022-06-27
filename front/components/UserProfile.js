@@ -4,7 +4,7 @@ import {
     Card, Avatar, Button
 } from 'antd';
 import { useDispatch } from 'react-redux';
-import { logoutAction } from '../reducers/user'
+import  logoutAction  from '../reducers/user'
   
 const UserProfile = () => {
     const dispatch = useDispatch()
